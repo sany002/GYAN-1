@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align_space_between{
+    justify-content: space-between;
+}
+
+.valign_center{
+    align-items: center;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* header part css start */
+#top_header{
+    height: 40px;
+    background-color: #2d3e50;
+    font-size: 14px;
+}
+
+.header_left{
+    display: flex;
+}
+
+.header_left p{
+    padding-top: 5px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.header_left a{
+    padding-top: 11px;
+    padding-left: 11px;
+    color: #fff;
+}
+
+.header_right{
+    padding-left: 633px;
+    padding-top: 11px;
+}
+
+.header_right a{
+    color: #fff;
+    transition: 0.4s;
+}
+
+.header_right a:hover{
+    color: #fbaa33;
+}
+/* header part css end  */
+
+/*  nav part css start  */
+
+#menu{
+    display: flex;
+    height: 124px;
+}
+
+.menu_1st{
+    padding-top: 20px;
+}
+
+.menu_2nd ul li{
+    display: inline-block;
+    padding-left: 44px;
+    padding-top: 40px;
+    
+}
+
+.menu_2nd ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d3e50;
+    transition: 0.4s;
+}
+
+.menu_2nd ul li a:hover{
+    color: #fbaa33;
+}
+
+.menu_3rd{
+    padding-top: 40px;
+}
+
+.menu_3rd a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #fbaa33;
+    padding: 21px 19px;
+    border-radius: 0.50ch;
+    background-color: #fbaa33;
+}
+
+/*  nav part css end  */
+
+/*  hero part css start  */
+#hero_part{
+    background-color: #2d3e50;
+    height: 860px;
+}
+
+.number{
+    font-size: 450px;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+}
+
+.hero_logo{
+    position: absolute;
+    top: 381px;
+    left: 659px;
+}
+
+.number p{   
+    color: #fff;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 288px;
+}
+
+
+.back_to_home a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #fbaa33;
+    padding: 21px 30px;
+    border-radius: 0.50ch;
+    background-color: #fbaa33;
+    position: absolute;
+    bottom: -72px;
+    left: 893px;
+}
+
+
+/*  hero part css end  */
